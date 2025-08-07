@@ -1,2 +1,0 @@
-# rizaldy-portfolio
-# my-portfolio
