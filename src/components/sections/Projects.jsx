@@ -11,7 +11,7 @@ function Projects() {
         data-hs-carousel='{"loadingClasses": "opacity-0"}'
         className="relative mt-2"
       >
-        <div className="hs-carousel relative sm:overflow-hidden overflow-visible w-full h-full bg-white dark:bg-gray-800 rounded-lg">
+        <div className="hs-carousel relative sm:overflow-hidden overflow-x-hidden overflow-visible w-full h-full bg-white dark:bg-gray-800 rounded-lg">
           <div className="hs-carousel-body relative sm:absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
             {/* =========== CERTIFICATES LIST =========== */}
             {user_info.certificates.map((cert, index) => {
