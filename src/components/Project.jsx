@@ -20,7 +20,7 @@ function Project({ title, description, technologies, link, img }) {
         </h3>
         {/* =========== PROJECT DESCRIPTION =========== */}
         <div className="text-zinc-500 dark:text-zinc-300 mt-4">
-          <img src={img} />
+          <img src={img} alt="Component image" />
         </div>
         <p className="leading-7 text-zinc-500 dark:text-zinc-300 font-light text-base mt-4">
           {description}

@@ -30,7 +30,7 @@ function Projects() {
                           ))}
                       </div>
                       <div className="font-bold text-white py-6">{cert.title}</div>
-                      <img src={cert.img} />
+                      <img src={cert.img} alt="Chart Image" />
                       <div className="mt-6">{cert.description}</div>
                     </div>
                   </div>
