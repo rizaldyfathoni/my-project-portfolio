@@ -4,7 +4,7 @@ const info = {
         name: "Rizaldy Fathoni",
         description: "I am a Frontend Developer with a strong focus on creating scalable, secure, and responsive web applications. Skilled in various modern frameworks and technologies, I specialize in delivering high-performance interfaces that enhance user experience. Passionate about writing clean, maintainable code that follows industry best practices and standards. My professional journey includes contributing to large-scale projects such as Netmonk.id, where I worked closely with designers, backend developers, and product teams to deliver optimized and maintainable code. I have experience in translating complex requirements into functional, performant web features that align with user needs and business goals",
         role: "Frontend Developer",
-        photo: "../photo.webp",
+        photo: "/photo.webp",
         email: "rizaldyfathooni@gmail.com",
     },
 
@@ -19,70 +19,70 @@ const info = {
     projects: [
         {
 			title: "Netmonk",
-            img: '../../public/netmonk-website.webp',
+            img: '/public/netmonk-website.webp',
 			description: "Developed as a netmonk landing page website using NextJs, Tailwind, Eslint, Webpack, Prettier technology.",
             technologies: "NextJs, Tailwind, Eslint, Webpack, Prettier, Jest",
             link: "https://netmonk.id/"
 		},
         { 
 			title: "Help Center Netmonk",
-            img: '../../public/help-center.webp',
+            img: '/public/help-center.webp',
 			description: "Developed as a customer help center using NextJs, Tailwind, Eslint, Webpack, Prettier technology.",
 			technologies: "NextJs, Tailwind, Eslint, Webpack, Prettier, Jest",
             link: "https://netmonk.id/help"
 		},
         {
 			title: "Input Search Dropdown Tree",
-            img: '../../public/input-search-dropdown-tree.webp',
+            img: '/public/input-search-dropdown-tree.webp',
 			description: "Components used for users who have data such as trees",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
 		{
 			title: "Datepicker Component",
-            img: '../../public/datepicker.webp',
+            img: '/public/datepicker.webp',
 			description: "component used for users who want to see data on a specific date",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
 		{
 			title: "Status Bar",
-            img: '../../public/status-bar.webp',
+            img: '/public/status-bar.webp',
 			description: "Components that users use to view data with a bar display",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
 		{
 			title: "Table Tree",
-            img: '../../public/table-tree.webp',
+            img: '/public/table-tree.webp',
 			description: "Components used for users who have data table such as trees",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
         {
 			title: "Table",
-            img: '../../public/table.webp',
+            img: '/public/table.webp',
 			description: "Components used for users who have data table such as trees",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
         {
 			title: "Input Dropdown Search",
-            img: '../../public/input-dropdown-search.webp',
+            img: '/public/input-dropdown-search.webp',
 			description: "Components used for users who have data table such as trees",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
         {
 			title: "Dropdown",
-            img: '../../public/dropdown.webp',
+            img: '/public/dropdown.webp',
 			description: "Components used for users who have data table such as trees",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
         {
 			title: "Device Usage",
-            img: '../../public/device-usage.webp',
+            img: '/public/device-usage.webp',
 			description: "Components used for users who have data table such as trees",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
@@ -142,37 +142,37 @@ const info = {
     certificates: [
         {
             title: "Disk Io",
-            img: '../../public/disk-io.webp',
+            img: '/public/disk-io.webp',
             description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Link Utilization",
-            img: '../../public/link-utilization.webp',
+            img: '/public/link-utilization.webp',
             description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Response Time",
-            img: '../../public/response-time.webp',
+            img: '/public/response-time.webp',
             description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Status",
-            img: '../../public/status.webp',
+            img: '/public/status.webp',
             description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Uptime",
-            img: '../../public/uptime.webp',
+            img: '/public/uptime.webp',
             description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Usage",
-            img: '../../public/usage.webp',
+            img: '/public/usage.webp',
             description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
