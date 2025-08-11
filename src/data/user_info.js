@@ -20,70 +20,91 @@ const info = {
         {
 			title: "Netmonk",
             img: 'netmonk-website.webp',
-			description: "Developed as a netmonk landing page website using NextJs, Tailwind, Eslint, Webpack, Prettier technology.",
+			description: "Developed a Netmonk landing page using Next.js, Tailwind CSS, and other tools to ensure fast, responsive, and maintainable code. The page is SEO-optimized with modern UI/UX, highlighting Netmonk as a reliable network monitoring solution in Indonesia.",
             technologies: "NextJs, Tailwind, Eslint, Webpack, Prettier, Jest",
             link: "https://netmonk.id/"
 		},
         { 
 			title: "Help Center Netmonk",
             img: 'help-center.webp',
-			description: "Developed as a customer help center using NextJs, Tailwind, Eslint, Webpack, Prettier technology.",
+			description: "Developed a responsive and maintainable customer help center using Next.js and Tailwind CSS, featuring searchable docs, manual downloads, and categorized issues to enhance user support.",
 			technologies: "NextJs, Tailwind, Eslint, Webpack, Prettier, Jest",
             link: "https://netmonk.id/help"
 		},
         {
 			title: "Input Search Dropdown Tree",
             img: 'input-search-dropdown-tree.webp',
-			description: "Components used for users who have data such as trees",
+			description: "This component displays nested data in a searchable dropdown, ideal for hierarchical structures like user groups or categories, making navigation and selection easier.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
 		{
 			title: "Datepicker Component",
             img: 'datepicker.webp',
-			description: "component used for users who want to see data on a specific date",
+			description: "This component is used to select a specific time or date range. It's helpful for users who want to filter and view data based on specific time periods, such as last 1 hour, last 7 days, or a custom date with time.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
 		{
-			title: "Status Bar",
-            img: 'status-bar.webp',
-			description: "Components that users use to view data with a bar display",
+			title: "One Time Password",
+            img: 'one-time-pass.webp',
+			description: "This component is used to verify logins using an OTP code sent to the user's email. It consists of six input boxes for entering the code digits, along with a Verify button to continue the authentication process. It's typically implemented using React with real-time validation and partial email address masking for security.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
 		{
 			title: "Table Tree",
             img: 'table-tree.webp',
-			description: "Components used for users who have data table such as trees",
+			description: "This component is used to display data in a hierarchical table (tree), where each row can have sub-rows or child nodes. It's suitable for displaying nested data structures such as organizations, product categories, or file directories.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
         {
 			title: "Table",
             img: 'table.webp',
-			description: "Components used for users who have data table such as trees",
+			description: "This component is used to display data in a flat table format, ideal for lists of data such as servers, network devices, or inventory. The main difference from Table Tree is its non-hierarchical data structure.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
         {
 			title: "Input Dropdown Search",
             img: 'input-dropdown-search.webp',
-			description: "Components used for users who have data table such as trees",
+			description: "A search component with a dynamic dropdown list that displays results based on user input. Ideal for selecting items from nested data such as groups and subgroups. This component is especially useful in the context of tree tables, simplifying the search for entities within a hierarchical structure.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
         {
-			title: "Dropdown",
-            img: 'dropdown.webp',
-			description: "Components used for users who have data table such as trees",
+			title: "Split View",
+            img: 'split-view.webp',
+			description: "This component divides the display into two sections: a list of data on one side and details of selected data on the other. This approach makes it easier for users to browse and understand information more efficiently without having to navigate pages, thus improving the user experience in accessing and managing data.",
+			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
+            link: ""
+		},
+        {
+			title: "Activity Log",
+            img: 'activity-log.webp',
+			description: "This feature tracks user activity from the moment they log in, including time, module, and actions taken. It features time, module, and action filters for easier searching and analysis.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
         {
 			title: "Device Usage",
             img: 'device-usage.webp',
-			description: "Components used for users who have data table such as trees",
+			description: "This component displays a donut chart to illustrate device usage. For example, 90 out of 100 units are in use. This visualization allows users to quickly and intuitively understand device usage statistics.",
+			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
+            link: ""
+		},
+        {
+			title: "Status Bar",
+            img: 'status-bar.webp',
+			description: "This component displays data status or progress visually using bars. It's useful for showing quota usage, resource distribution (such as network, web, server), or other statuses in a concise and easy-to-understand manner.",
+			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
+            link: ""
+		},
+        {
+			title: "Dropdown",
+            img: 'dropdown.webp',
+			description: "Dropdown components are used to provide action options such as View Details, Edit, and Delete for items in tabular data (e.g., a data tree/hierarchy). They are commonly used to enhance user interfaces in complex data management.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
@@ -143,37 +164,76 @@ const info = {
         {
             title: "Disk Io",
             img: 'disk-io.webp',
-            description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
+            description: "Chart components are built with React and styled-components to streamline development. They are reusable, modular, customizable, and easily integrated with various data sources. Styled-components ensure consistent design, while abstraction of logic improves code efficiency, consistency, and scalability.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Link Utilization",
             img: 'link-utilization.webp',
-            description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
+            description: "Chart components are built with React and styled-components to streamline development. They are reusable, modular, customizable, and easily integrated with various data sources. Styled-components ensure consistent design, while abstraction of logic improves code efficiency, consistency, and scalability.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Response Time",
             img: 'response-time.webp',
-            description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
+            description: "Chart components are built with React and styled-components to streamline development. They are reusable, modular, customizable, and easily integrated with various data sources. Styled-components ensure consistent design, while abstraction of logic improves code efficiency, consistency, and scalability.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Status",
             img: 'status.webp',
-            description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
+            description: "Chart components are built with React and styled-components to streamline development. They are reusable, modular, customizable, and easily integrated with various data sources. Styled-components ensure consistent design, while abstraction of logic improves code efficiency, consistency, and scalability.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Uptime",
             img: 'uptime.webp',
-            description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
+            description: "Chart components are built with React and styled-components to streamline development. They are reusable, modular, customizable, and easily integrated with various data sources. Styled-components ensure consistent design, while abstraction of logic improves code efficiency, consistency, and scalability.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
         {
             title: "Usage",
             img: 'usage.webp',
-            description: "Chart components are created to simplify and speed up development so that they can be used reusably using React and styled components.",
+            description: "Chart components are built with React and styled-components to streamline development. They are reusable, modular, customizable, and easily integrated with various data sources. Styled-components ensure consistent design, while abstraction of logic improves code efficiency, consistency, and scalability.",
+            tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
+        },
+    ],
+
+    usage_examples: [
+        {
+            title: "Some Examples of Use",
+            img: '1.webp',
+            description: "Here are some examples of components used in website development, such as buttons, input forms, cards, navigation, charts, and data tables. These components are designed to be reused across different parts of a site, speeding up the development process, maintaining a consistent appearance, and simplifying code maintenance.",
+            tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
+        },
+        {
+            title: "Some Examples of Use",
+            img: '2.webp',
+            description: "Here are some examples of components used in website development, such as buttons, input forms, cards, navigation, charts, and data tables. These components are designed to be reused across different parts of a site, speeding up the development process, maintaining a consistent appearance, and simplifying code maintenance.",
+            tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
+        },
+        {
+            title: "Some Examples of Use",
+            img: '3.webp',
+            description: "Here are some examples of components used in website development, such as buttons, input forms, cards, navigation, charts, and data tables. These components are designed to be reused across different parts of a site, speeding up the development process, maintaining a consistent appearance, and simplifying code maintenance.",
+            tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
+        },
+        {
+            title: "Some Examples of Use",
+            img: '4.webp',
+            description: "Here are some examples of components used in website development, such as buttons, input forms, cards, navigation, charts, and data tables. These components are designed to be reused across different parts of a site, speeding up the development process, maintaining a consistent appearance, and simplifying code maintenance.",
+            tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
+        },
+        {
+            title: "Some Examples of Use",
+            img: '5.webp',
+            description: "Here are some examples of components used in website development, such as buttons, input forms, cards, navigation, charts, and data tables. These components are designed to be reused across different parts of a site, speeding up the development process, maintaining a consistent appearance, and simplifying code maintenance.",
+            tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
+        },
+        {
+            title: "Some Examples of Use",
+            img: '6.webp',
+            description: "Here are some examples of components used in website development, such as buttons, input forms, cards, navigation, charts, and data tables. These components are designed to be reused across different parts of a site, speeding up the development process, maintaining a consistent appearance, and simplifying code maintenance.",
             tech: "ReactJs, StyledComponent, Eslint, Prettier, Jest",
         },
     ],
