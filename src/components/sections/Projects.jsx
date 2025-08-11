@@ -1,8 +1,14 @@
+import { useState } from "react";
 import user_info from "../../data/user_info.js";
 import Project from "../Project.jsx";
 
 function Projects() {
+  const [seeAll, setSeeAll] = useState(false);
+  const handleSeeAll = () => {
+    setSeeAll(!seeAll)
+  }
   return (
+    <>
     <section
       id="projects"
       className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 lg:px-16"
@@ -190,22 +196,27 @@ function Projects() {
         </div>
       </div>
 
-
-      
       {user_info.projects.map((project, index) => {
         return (
-          <Project
-            key={index}
-            title={project.title}
-            description={project.description}
-            technologies={project.technologies}
-            github={project.github}
-            link={project.link}
-            img={project.img}
-          />
+          <div key={index} className={`${index > 3 && seeAll === false ? 'hidden' : 'block'}`}>
+            <Project
+              title={project.title}
+              description={project.description}
+              technologies={project.technologies}
+              github={project.github}
+              link={project.link}
+              img={project.img}
+            />
+          </div>
         );
       })}
     </section>
+    <div className="flex justify-center">
+      <button type="button" onClick={() => handleSeeAll()} className="hover:dark:bg-zinc-800 text-white px-40 py-2 rounded mt-10 border border-white font-medium transition-all duration-300">
+        <div>{seeAll === false ? 'See All' : 'Close'}</div>
+      </button>
+    </div>
+      </>
   );
 }
 

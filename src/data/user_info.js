@@ -32,6 +32,20 @@ const info = {
             link: "https://netmonk.id/help"
 		},
         {
+			title: "Split View",
+            img: 'split-view.webp',
+			description: "This component divides the display into two sections: a list of data on one side and details of selected data on the other. This approach makes it easier for users to browse and understand information more efficiently without having to navigate pages, thus improving the user experience in accessing and managing data.",
+			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
+            link: ""
+		},
+        {
+			title: "One Time Password",
+            img: 'one-time-pass.webp',
+			description: "This component is used to verify logins using an OTP code sent to the user's email. It consists of six input boxes for entering the code digits, along with a Verify button to continue the authentication process. It's typically implemented using React with real-time validation and partial email address masking for security.",
+			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
+            link: ""
+		},
+        {
 			title: "Input Search Dropdown Tree",
             img: 'input-search-dropdown-tree.webp',
 			description: "This component displays nested data in a searchable dropdown, ideal for hierarchical structures like user groups or categories, making navigation and selection easier.",
@@ -42,13 +56,6 @@ const info = {
 			title: "Datepicker Component",
             img: 'datepicker.webp',
 			description: "This component is used to select a specific time or date range. It's helpful for users who want to filter and view data based on specific time periods, such as last 1 hour, last 7 days, or a custom date with time.",
-			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
-            link: ""
-		},
-		{
-			title: "One Time Password",
-            img: 'one-time-pass.webp',
-			description: "This component is used to verify logins using an OTP code sent to the user's email. It consists of six input boxes for entering the code digits, along with a Verify button to continue the authentication process. It's typically implemented using React with real-time validation and partial email address masking for security.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
@@ -70,13 +77,6 @@ const info = {
 			title: "Input Dropdown Search",
             img: 'input-dropdown-search.webp',
 			description: "A search component with a dynamic dropdown list that displays results based on user input. Ideal for selecting items from nested data such as groups and subgroups. This component is especially useful in the context of tree tables, simplifying the search for entities within a hierarchical structure.",
-			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
-            link: ""
-		},
-        {
-			title: "Split View",
-            img: 'split-view.webp',
-			description: "This component divides the display into two sections: a list of data on one side and details of selected data on the other. This approach makes it easier for users to browse and understand information more efficiently without having to navigate pages, thus improving the user experience in accessing and managing data.",
 			technologies: "React, StyledComponent, Eslint, Prettier, Jest",
             link: ""
 		},
